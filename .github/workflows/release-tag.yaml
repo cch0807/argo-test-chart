@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: app/Dockerfile
+          file: /app/Dockerfile
           push: true
-          tags: registry.cchlion.com:8894/test-express-app:${{ github.sha }}
+          tags: registry-cch.video-mint.net/test-express-app:${{ github.sha }}
 
