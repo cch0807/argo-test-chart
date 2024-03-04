@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-express-app
+  namespace: argolab
+  labels:
+    name: test-express-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: test-express-app
+  template:
+    metadata:
+      labels:
+        name: test-express-app
+    spec:
+      containers:
+      - name: test-express-app
+        image: registry-ui.cchlion.com:8894/test-express-app:stag
+        ports:
+        - containerPort: 3000
