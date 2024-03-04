@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: test-express-app
-        image: registry-ui.cchlion.com:8894/test-express-app:stag
+        image: registry-ui.cchlion.com:8894/test-express-app:latest
         ports:
         - containerPort: 3000
