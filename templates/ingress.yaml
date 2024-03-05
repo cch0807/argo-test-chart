@@ -9,7 +9,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.tls.certresolver: letsencrypt
 spec:
   rules:
-  - host: labs.cchlion.com
+  - host: labs.video-mint.net
     http:
       paths:
         - path: /
