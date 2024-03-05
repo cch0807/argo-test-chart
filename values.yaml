@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: registry-ui-cch.video-mint.net/test-express-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ddabb27cfd31eabf0b15e0d573e092efc7ddeb97
