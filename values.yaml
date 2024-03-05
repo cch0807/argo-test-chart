@@ -8,7 +8,7 @@ image:
   repository: registry-ui-cch.video-mint.net/test-express-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ddabb27cfd31eabf0b15e0d573e092efc7ddeb97
+  tag: 8201fe2e7524a9b339192cfffb9317565ae0cd8d
 
 imagePullSecrets: []
 nameOverride: ""
